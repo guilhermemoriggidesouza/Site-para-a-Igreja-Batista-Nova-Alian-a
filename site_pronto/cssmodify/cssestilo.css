@@ -1,0 +1,26 @@
+html, body{
+    height:100%;
+}
+.logo{
+    background-image:url("imagens/jesus.jpg");
+    background-attachment:fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+@media only screen and (max-width:768px) {
+    /* For mobile phones: */
+    [class*="logo"] {
+        background-image:url("imagens/jesus.jpg");
+        background-repeat: no-repeat;
+        background-position: 50%;
+        height:200vh;
+        overflow: hidden;
+        text-shadow: 1.5px 0px 0px black, 
+        -1.5px 0px 0px black, 
+        0px 1.5px 0px black, 
+        0px -1.5px 0px black;
+        }
+    }
+
